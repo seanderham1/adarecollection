@@ -1,0 +1,36 @@
+/* src/styles/globals.css - Global Styling Only */
+
+/* src/styles/globals.css - Global Styling Only */
+
+:root {
+  /* Adare Brand Colors */
+  --adare-navy: #142a4d;
+  --adare-gold: #b18851;
+  --adare-white: #ffffff;
+
+  /* New Sync-like Gradient Colors (still present but unused in ComingSoon.css now) */
+  --sync-dark-blue-purple: #2a2a5e; /* Approximate dark blue/purple from Sync page */
+  --sync-dark-green: #006c4a;       /* Approximate dark green from Sync page */
+
+  /* Add any other global variables or base styles here */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* === UPDATED: Apply Questrial font === */
+  font-family: var(--font-questrial), sans-serif; /* Use Questrial CSS variable first */
+  /* === END UPDATED === */
+  color: var(--adare-white); /* Default text color for the entire application */
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex; /* Helps in centering content for the ComingSoon container */
+  flex-direction: column;
+  overflow-x: hidden; /* Prevent horizontal scroll on small devices */
+}
+
+/* The .adare-gradient class is now unused as the gradient moves to ComingSoon.css */
+/* If you want to keep it as a utility, its definition would be here. */
+/* .adare-gradient {
+  background: linear-gradient(to bottom right, var(--adare-navy), #10253f, var(--adare-navy));
+} */

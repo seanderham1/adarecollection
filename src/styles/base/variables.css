@@ -1,0 +1,34 @@
+:root {
+    /* Brand Colors - From business card */
+    --adare-navy: #1e3a5f;
+    --adare-gold: #d4af37;
+    --adare-white: #ffffff;
+    --adare-light-gold: #f4e4a6;
+    --adare-dark-navy: #152938;
+    
+    /* Typography */
+    --font-primary: 'Inter', sans-serif;
+    --font-heading: 'Inter', sans-serif;
+    
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+    --spacing-3xl: 4rem;
+  }
+  
+  /* Global Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-primary);
+    line-height: 1.6;
+    color: var(--adare-white);
+  }
